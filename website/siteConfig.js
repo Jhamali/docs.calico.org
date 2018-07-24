@@ -16,13 +16,13 @@ const users = [
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/docusaurus.svg',
     infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
-];
+    pinned: true
+  }
+]
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
+  title: 'Calico' /* title for your website */,
+  tagline: 'Towards a sustainable developer community',
   url: 'https://your-docusaurus-test-site.com' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -30,55 +30,40 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'calico',
+  organizationName: 'The Palisadoes Foundation',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    { doc: 'doc1', label: 'Students' },
+    { doc: 'doc4', label: 'Mentors' },
+    { page: 'help', label: 'Help' }
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/calico.png',
   footerIcon: 'img/docusaurus.svg',
   favicon: 'img/favicon.png',
 
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#FFC000',
+    secondaryColor: '#00B352'
   },
-
-  /* custom fonts for website */
-  /*fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
-  },*/
 
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
-    'Copyright © ' +
-    new Date().getFullYear() +
-    ' Your Name or Your Company Name',
+    'Copyright © ' + new Date().getFullYear() + ' The Palisadoes Foundation',
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
-    theme: 'default',
+    theme: 'default'
   },
 
   // Add custom scripts here that would be placed in <script> tags
@@ -93,7 +78,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
-};
+  repoUrl: 'https://github.com/PalisadoesFoundation/docs.calico.org'
+}
 
-module.exports = siteConfig;
+module.exports = siteConfig
