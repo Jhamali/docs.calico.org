@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Calico' /* title for your website */,
   tagline: 'Towards a sustainable developer community',
   url: 'https://your-docusaurus-test-site.com' /* your website url */,
-  baseUrl: '/' /* base url for your project */,
+  baseUrl: '/docs.calico.org/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
