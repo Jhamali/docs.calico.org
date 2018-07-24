@@ -4,8 +4,6 @@ title: Students
 sidebar_label: Student Tips
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
-
 ## Tips
 
 * Consult the mentor of the project you wish to work on. They will be immensely helpful in findng the right resources to get a head start.
