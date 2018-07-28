@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: student
 title: Students
 sidebar_label: Student Tips
 ---
